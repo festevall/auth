@@ -1,0 +1,19 @@
+index:
+    path: /
+    defaults: { _controller: Controller\SiteController::index }
+
+login:
+    path: /login
+    defaults: { _controller: Controller\SiteController::login }
+
+profile:
+    path: /profile/{id}
+    defaults: { _controller: Controller\SiteController::profile }
+
+registration:
+    path: /registration
+    defaults: { _controller: Controller\SiteController::registration }
+
+logout:
+    path: /logout
+    defaults: { _controller: Controller\SiteController::logout }

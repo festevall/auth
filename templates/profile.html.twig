@@ -1,0 +1,9 @@
+{% extends 'layout.html.twig' %}
+
+{% block content %}
+<div class="form">
+    <p>Hello, {{ user.login }}</p>
+    <p><a href="{{ path('logout') }}">Logout</a></p>
+</div>
+
+{% endblock %}
